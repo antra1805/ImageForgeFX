@@ -17,7 +17,7 @@ It provides a modular architecture for experimenting with custom filters and vis
 
 # 🚀 **Getting Started**
 
-# 🔧**Prerequisites**
+ 🔧**Prerequisites**
 
 ☕ Java 21+ (JDK installed and JAVA_HOME set)
 
