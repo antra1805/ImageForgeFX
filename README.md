@@ -1,4 +1,4 @@
-🌟 #ImageForgeFX
+🌟# ImageForgeFX
 
 A JavaFX-based image processing appplication that applies real-time filters and effects on images using multithreaded processing.
 It provides a modular architecture for experimenting with custom filters and visualizing results on an interactive canvas.
