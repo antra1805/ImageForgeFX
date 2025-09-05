@@ -1,6 +1,6 @@
 🌟**ImageForgeFX**
 
-ImageForgeFX is a JavaFX-based image processing appplication that applies real-time filters and effects on images using multithreaded processing.
+A JavaFX-based image processing appplication that applies real-time filters and effects on images using multithreaded processing.
 It provides a modular architecture for experimenting with custom filters and visualizing results on an interactive canvas.
 
 ✨**Features**
@@ -16,6 +16,7 @@ It provides a modular architecture for experimenting with custom filters and vis
 🛠️ Maven Build – Simple dependency management and JavaFX plugin support.
 
 🚀**Getting Started**
+
 🔧**Prerequisites**
 
 ☕ Java 21+ (JDK installed and JAVA_HOME set)
@@ -24,12 +25,13 @@ It provides a modular architecture for experimenting with custom filters and vis
 
 ▶️**Clone & Run**
 git clone https://github.com/<your-username>/ImageForgeFX.git
+
 cd ImageForgeFX
 
-# Windows
+**Windows**
 .\mvnw.cmd clean javafx:run
 
-# Linux / Mac
+ **Linux / Mac**
 ./mvnw clean javafx:run
 
 
