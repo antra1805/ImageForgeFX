@@ -1,32 +1,38 @@
-**ImageForgeFX**
+🌟 ImageForgeFX
 
-A JavaFX-based image processing tool that applies real-time filters and effects on images using multithreaded processing.
+ImageForgeFX is a JavaFX-based image processing tool that applies real-time filters and effects on images using multithreaded processing.
 It provides a modular architecture for experimenting with custom filters and visualizing results on an interactive canvas.
 
 ✨ Features
 
-🎨 Apply custom filters (e.g., grayscale) to images.
+🎨 Custom Filters – Apply effects like grayscale and extend with your own.
 
-⚡ Multithreaded processing for faster performance.
+⚡ Multithreaded Processing – Faster performance with concurrent tasks.
 
-🖼️ Real-time visualization on a JavaFX canvas.
+🖼️ Real-time Visualization – Render processed images on a JavaFX canvas.
 
-📂 Easy to swap images (src/main/resources/test.jpg).
+📂 Easy Image Swapping – Replace test.jpg in resources with any image.
 
-🛠️ Maven-powered build for easy dependency management.
+🛠️ Maven Build – Simple dependency management and JavaFX plugin support.
 
-📂 Project Structure
-ImageForgeFX
- ├─ src/main/java/com/image/imageprocessing
- │   ├─ HelloApplication.java   # Entry point
- 
- │   ├─ processor/              # ImageProcessor (multithreaded logic)
- 
- │   ├─ filter/                 # Custom filters
- 
- │   ├─ image/                  # Drawing on canvas
- 
- │   └─ io/                     # Image IO handling
- 
- └─ src/main/resources/test.jpg # Sample image
+🚀 Getting Started
+🔧 Prerequisites
+
+☕ Java 21+ (JDK installed and JAVA_HOME set)
+
+📦 Maven (or use the included mvnw wrapper)
+
+▶️ Clone & Run
+git clone https://github.com/<your-username>/ImageForgeFX.git
+cd ImageForgeFX
+
+# Windows
+.\mvnw.cmd clean javafx:run
+
+# Linux / Mac
+./mvnw clean javafx:run
+
+
+
+
  
