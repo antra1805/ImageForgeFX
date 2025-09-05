@@ -1,4 +1,4 @@
-ImageForgeFX
+**ImageForgeFX**
 
 A JavaFX-based image processing tool that applies real-time filters and effects on images using multithreaded processing.
 It provides a modular architecture for experimenting with custom filters and visualizing results on an interactive canvas.
@@ -19,9 +19,14 @@ It provides a modular architecture for experimenting with custom filters and vis
 ImageForgeFX
  ├─ src/main/java/com/image/imageprocessing
  │   ├─ HelloApplication.java   # Entry point
+ 
  │   ├─ processor/              # ImageProcessor (multithreaded logic)
+ 
  │   ├─ filter/                 # Custom filters
+ 
  │   ├─ image/                  # Drawing on canvas
+ 
  │   └─ io/                     # Image IO handling
+ 
  └─ src/main/resources/test.jpg # Sample image
  
